@@ -1,7 +1,8 @@
-# inspiration code for Python Unit Testing Project
-# this code is the same exact file as used by the command line project
-# it can just be imported as it by the web app
-# and also still be used by itself
+# Simple Python Code for computing the volume of a Cylinder
+# 
+# This code can be used in two different ways:
+# Imported and used by another Python program
+# Ran by itself
 
 import math
 
