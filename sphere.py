@@ -9,7 +9,7 @@ def volume():
 def prompt():
     print()
     print("------------------------------------------------------------")
-    print("PYTHON PROGRAM TO FIND THE VOLUME AND SURFACE AREA OF SPHERE")
+    print("PYTHON PROGRAM TO FIND THE VOLUME OF A SPHERE")
     print("------------------------------------------------------------")
     radius = int(input("Please Enter the radius :"))
 

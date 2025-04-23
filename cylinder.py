@@ -6,17 +6,18 @@
 
 import math
 
-def surfaceArea():
-    pass
-
+# Function to calculate the volume of a cylinder
+# Formula: Volume = π * r^2 * h
 def volume(rad, hi):
     volume = math.pi * rad * rad * hi
     return volume
 
+# Function to prompt user for input and display the volume
+# This function is only called if this file is run directly
 def prompt():
     print()
     print("-----------------------------------------------------------")
-    print("PYTHON PROGRAM TO FIND VOLUME & SURFACE AREA OF A CYLINDER")
+    print("PYTHON PROGRAM TO FIND VOLUME OF A CYLINDER")
     print("-----------------------------------------------------------")
     radius = int(input("Please Enter the radius : "))
     height = int(input("Please Enter the height : "))

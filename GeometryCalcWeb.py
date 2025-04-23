@@ -13,11 +13,12 @@
 # imports
 from flask import Flask, request, render_template, redirect, url_for
 import cylinder #<--why?
+import sphere
 
 #flask plumbing
 app = Flask(__name__)
 
-#flask route for the index page
+#flask route for the index aka 'home' page
 #uses html template for user selection
 @app.route("/", methods = ["GET", "POST"])
 def mainForm():
