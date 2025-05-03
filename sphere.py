@@ -1,17 +1,23 @@
 # inspiration code for Python Unit Testing Project
 
-def surfaceArea():
-    pass
+import math
 
-def volume():
-    pass
+def surfaceArea(radius):
+    return 4 * math.pi * radius**2
+
+def volume(radius):
+    return (4/3) * math.pi * radius**3
 
 def prompt():
     print()
-    print("------------------------------------------------------------")
+    print("---------------------------------------------------")
     print("PYTHON PROGRAM TO FIND THE VOLUME OF A SPHERE")
-    print("------------------------------------------------------------")
-    radius = int(input("Please Enter the radius :"))
+    print("---------------------------------------------------")
+    radius = float(input("Please Enter the radius: "))
+    result = volume(radius)
+    print(f"The Volume is: {result}")
+    return result
 
 if __name__ == '__main__':
     prompt()
+
